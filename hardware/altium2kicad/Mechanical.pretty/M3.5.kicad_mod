@@ -1,0 +1,3 @@
+(module "M3.5" (layer F.Cu) (tedit 5B0D3C36)
+  (gr_arc (start 0.00000 0.00000) (end 3.40000 0.00000) (angle -360) (layer Edge.Cuts) (width 0.127))
+)

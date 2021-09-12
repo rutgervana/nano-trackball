@@ -1,0 +1,6 @@
+(module "10118192-0001LF" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start -3.90000 -1.30000) (end 3.90000 -1.30000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start 3.90000 4.90000) (end 3.90000 -1.30000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start -3.90000 4.90000) (end 3.90000 4.90000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start -3.90000 4.90000) (end -3.90000 -1.30000) (layer B.CrtYd) (width 0.1))
+)

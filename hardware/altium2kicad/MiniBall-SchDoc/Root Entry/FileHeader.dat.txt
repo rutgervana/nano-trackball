@@ -1,0 +1,94 @@
+|HEADER=Protel for Windows - Schematic Capture Binary File Version 5.0|Weight=93|MinorVersion=2|UniqueID=TJUNNGOI
+|RECORD=31|FontIdCount=7|Size1=10|FontName1=Times New Roman|Size2=10|FontName2=Avenir LT 55 Roman|Size3=14|FontName3=Avenir LT 65 Medium|Size4=13|FontName4=Avenir LT 65 Medium|Size5=9|FontName5=Avenir LT 55 Roman|Size6=11|FontName6=Avenir LT 65 Medium|Size7=11|Underline7=T|FontName7=Avenir LT 65 Medium|UseMBCS=T|IsBOC=T|HotSpotGridOn=T|HotSpotGridSize=4|SheetStyle=10|SystemFont=2|BorderOn=T|SheetNumberSpaceSize=12|AreaColor=16777215|SnapGridOn=T|SnapGridSize=10|VisibleGridOn=T|VisibleGridSize=10|CustomX=1000|CustomY=800|ShowTemplateGraphics=T|TemplateFileName=C:\Repos\Nomist\electrical\SupportFiles\AltiumTemplates\A.SchDot|Display_Unit=0
+|RECORD=39|IsNotAccesible=T|OwnerPartId=-1|FileName=C:\Repos\Nomist\electrical\SupportFiles\AltiumTemplates\A.SchDot
+|RECORD=4|OwnerIndex=1|OwnerPartId=-1|Location.X=893|Location.Y=20|Color=8388608|FontID=5|Text==sheetnumber
+|RECORD=4|OwnerIndex=1|IndexInSheet=1|OwnerPartId=-1|Location.X=950|Location.Y=53|Color=8388608|FontID=4|Text=Ploopy Corporation
+|RECORD=4|OwnerIndex=1|IndexInSheet=2|OwnerPartId=-1|Location.X=950|Location.Y=33|Color=8388608|FontID=5|Text=Mississauga ON L5C 0A3
+|RECORD=4|OwnerIndex=1|IndexInSheet=3|OwnerPartId=-1|Location.X=920|Location.Y=20|Color=8388608|FontID=5|Text==sheettotal
+|RECORD=4|OwnerIndex=1|IndexInSheet=4|OwnerPartId=-1|Location.X=688|Location.Y=54|FontID=3|Text==DocumentName
+|RECORD=4|OwnerIndex=1|IndexInSheet=5|OwnerPartId=-1|Location.X=904|Location.Y=34|Color=8388608|FontID=5|Text==revision
+|RECORD=4|OwnerIndex=1|IndexInSheet=6|OwnerPartId=-1|Location.X=690|Location.Y=20|Color=8388608|FontID=5|Text==CurrentDate
+|RECORD=4|OwnerIndex=1|IndexInSheet=7|OwnerPartId=-1|Location.X=765|Location.Y=20|Color=8388608|FontID=5|Text==CurrentTime
+|RECORD=6|OwnerIndex=1|IndexInSheet=8|OwnerPartId=-1|LocationCount=3|X1=1080|Y1=70|X2=660|Y2=70|X3=660|Y3=20
+|RECORD=6|OwnerIndex=1|IndexInSheet=9|OwnerPartId=-1|LocationCount=2|X1=660|Y1=50|X2=940|Y2=50
+|RECORD=6|OwnerIndex=1|IndexInSheet=10|OwnerPartId=-1|LocationCount=2|X1=865|Y1=50|X2=865|Y2=20
+|RECORD=4|OwnerIndex=1|IndexInSheet=11|OwnerPartId=-1|Location.X=665|Location.Y=55|FontID=5|Text=Title:
+|RECORD=4|OwnerIndex=1|IndexInSheet=12|OwnerPartId=-1|Location.X=665|Location.Y=20|FontID=5|Text=Date:
+|RECORD=4|OwnerIndex=1|IndexInSheet=13|OwnerPartId=-1|Location.X=870|Location.Y=35|FontID=5|Text=Version:
+|RECORD=4|OwnerIndex=1|IndexInSheet=14|OwnerPartId=-1|Location.X=870|Location.Y=20|FontID=5|Text=Sheet
+|RECORD=4|OwnerIndex=1|IndexInSheet=15|OwnerPartId=-1|Location.X=908|Location.Y=20|FontID=5|Text=of
+|RECORD=6|OwnerIndex=1|IndexInSheet=16|OwnerPartId=-1|LocationCount=2|X1=940|Y1=70|X2=940|Y2=20
+|RECORD=4|OwnerIndex=1|IndexInSheet=17|OwnerPartId=-1|Location.X=740|Location.Y=20|FontID=5|Text=Time:
+|RECORD=6|OwnerIndex=1|IndexInSheet=18|OwnerPartId=-1|LocationCount=2|X1=660|Y1=30|X2=940|Y2=30
+|RECORD=4|OwnerIndex=1|IndexInSheet=19|OwnerPartId=-1|Location.X=665|Location.Y=35|FontID=5|Text=PCB:
+|RECORD=6|OwnerIndex=1|IndexInSheet=20|OwnerPartId=-1|LocationCount=3|X1=660|Y1=70|X2=480|Y2=70|X3=480|Y3=20
+|RECORD=4|OwnerIndex=1|IndexInSheet=21|OwnerPartId=-1|Location.X=688|Location.Y=34|FontID=4|Text==ProjectName
+|RECORD=4|OwnerIndex=1|IndexInSheet=22|OwnerPartId=-1|Location.X=490|Location.Y=53|Color=8388608|FontID=6|Text=Copyright Ploopy Corporation 2021
+|RECORD=4|OwnerIndex=1|IndexInSheet=23|OwnerPartId=-1|Location.X=950|Location.Y=43|Color=8388608|FontID=5|Text=137-1140 Burnhamthorpe Road W
+|RECORD=4|OwnerIndex=1|IndexInSheet=24|OwnerPartId=-1|Location.X=950|Location.Y=23|Color=8388608|FontID=5|Text=Canada
+|RECORD=4|OwnerIndex=1|IndexInSheet=25|OwnerPartId=-1|Location.X=490|Location.Y=40|Color=8388608|FontID=6|Text=Licensed under the CERN OHL v. 1.2
+|RECORD=4|OwnerIndex=1|IndexInSheet=26|OwnerPartId=-1|Location.X=490|Location.Y=30|Color=8388608|FontID=7|Text=http://ohwr.org/cernohl|URL=http://ohwr.org/cernohl
+|RECORD=41|IndexInSheet=1|OwnerPartId=-1|Color=8388608|FontID=2|IsHidden=T|Name=ConfigurationParameters|ReadOnlyState=1|UniqueID=FCCDJBJJ
+|RECORD=41|IndexInSheet=2|OwnerPartId=-1|Color=8388608|FontID=2|IsHidden=T|Name=ConfiguratorName|ReadOnlyState=1|UniqueID=TXQIABLA
+|RECORD=41|IndexInSheet=3|OwnerPartId=-1|Color=8388608|FontID=2|IsHidden=T|Name=VersionControl_RevNumber|ReadOnlyState=1|UniqueID=YCMXLEKM
+|RECORD=41|IndexInSheet=4|OwnerPartId=-1|Color=8388608|FontID=2|IsHidden=T|Name=IsUserConfigurable|ReadOnlyState=1|UniqueID=DMBGYVLW
+|RECORD=15|IndexInSheet=5|OwnerPartId=-1|Location.X=400|Location.Y=540|XSize=170|YSize=30|Color=128|AreaColor=8454016|IsSolid=T|UniqueID=BUHOUAJX|SymbolType=Normal
+|RECORD=16|OwnerIndex=33|OwnerPartId=-1|Side=1|DistanceFromTop=1|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=D+|UniqueID=TPWGYBWU|IOType=3|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=33|IndexInSheet=1|OwnerPartId=-1|DistanceFromTop=1|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=V_USB|UniqueID=NUZDITCH|IOType=1|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=33|IndexInSheet=2|OwnerPartId=-1|Side=1|DistanceFromTop=2|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=D-|UniqueID=ORSLEKTO|IOType=3|ArrowKind=Block & Triangle
+|RECORD=32|OwnerIndex=33|IndexInSheet=-1|OwnerPartId=-1|Location.X=400|Location.Y=550|Color=8388608|FontID=2|Text=USB
+|RECORD=33|OwnerIndex=33|IndexInSheet=-1|OwnerPartId=-1|Location.X=400|Location.Y=540|Color=8388608|FontID=2|Text=Connectors.SchDoc
+|RECORD=41|IndexInSheet=6|OwnerPartId=-1|Color=8388608|FontID=2|IsHidden=T|Name=VersionControl_ProjFolderRevNumber|ReadOnlyState=1|UniqueID=YKKHFBPC
+|RECORD=41|IndexInSheet=7|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CurrentTime|UniqueID=VGQSHTQR
+|RECORD=41|IndexInSheet=8|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CurrentDate|UniqueID=LVKEFWPL
+|RECORD=41|IndexInSheet=9|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Time|UniqueID=HRNXBHKV
+|RECORD=41|IndexInSheet=10|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Date|UniqueID=SFAWIKFK
+|RECORD=41|IndexInSheet=11|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DocumentFullPathAndName|UniqueID=OMDJBWPO
+|RECORD=41|IndexInSheet=12|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DocumentName|UniqueID=BVQSIRLW
+|RECORD=41|IndexInSheet=13|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ModifiedDate|UniqueID=WVWTQWPH
+|RECORD=41|IndexInSheet=14|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ApprovedBy|UniqueID=EIKNJUEN
+|RECORD=41|IndexInSheet=15|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CheckedBy|UniqueID=UMRPJDAQ
+|RECORD=41|IndexInSheet=16|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=Author|UniqueID=CBQGFDVG
+|RECORD=41|IndexInSheet=17|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Ploopy Corporation|Name=CompanyName|UniqueID=VJUUMRXK
+|RECORD=41|IndexInSheet=18|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DrawnBy|UniqueID=OTKVQVCA
+|RECORD=41|IndexInSheet=19|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Engineer|UniqueID=GWHUWYAO
+|RECORD=41|IndexInSheet=20|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Ploopy Corporation|Name=Organization|ReadOnlyState=1|UniqueID=AYOHLKSX
+|RECORD=41|IndexInSheet=21|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=137-1140 Burnhamthorpe Road W|Name=Address1|UniqueID=RMCOMOSC
+|RECORD=41|IndexInSheet=22|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Mississauga|Name=Address2|UniqueID=AJWKUWYC
+|RECORD=41|IndexInSheet=23|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Ontario|Name=Address3|UniqueID=VXEJGGPW
+|RECORD=41|IndexInSheet=24|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Canada L5C 0A3|Name=Address4|UniqueID=BGJWFPPM
+|RECORD=41|IndexInSheet=25|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Title|UniqueID=HYUTPTGW
+|RECORD=41|IndexInSheet=26|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=1|Name=DocumentNumber|UniqueID=JAIFAHFE
+|RECORD=41|IndexInSheet=27|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=R1.001|Name=Revision|UniqueID=XNRPGDSU
+|RECORD=41|IndexInSheet=28|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=1|Name=SheetNumber|UniqueID=IPRPETIV
+|RECORD=41|IndexInSheet=29|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=5|Name=SheetTotal|UniqueID=WIFYVAQF
+|RECORD=41|IndexInSheet=30|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ImagePath|ReadOnlyState=1|UniqueID=MUYWIVXH
+|RECORD=41|IndexInSheet=31|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Rule|ReadOnlyState=1|UniqueID=DYJVEULM
+|RECORD=41|IndexInSheet=32|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ProjectName|ReadOnlyState=1|UniqueID=LUAWAGRB
+|RECORD=41|IndexInSheet=33|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Application_BuildNumber|ReadOnlyState=1|UniqueID=DGMYSHII
+|RECORD=28|IndexInSheet=34|OwnerPartId=-1|Location.X=850|Location.Y=80|Corner.X=1070|Corner.Y=210|AreaColor=16777215|FontID=2|IsSolid=T|Alignment=1|WordWrap=T|ClipToRect=T|Text=This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.~1~1You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). ~1~1This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING   OF MERCHANTABILITY, SATISFACTORY QUALITY   AND FITNESS FOR A PARTICULAR PURPOSE.~1~1Please see the CERN OHL v.1.2 for applicable conditions.|TextMargin_Frac=5
+|RECORD=15|IndexInSheet=35|OwnerPartId=-1|Location.X=570|Location.Y=540|XSize=130|YSize=180|Color=128|AreaColor=8454016|IsSolid=T|UniqueID=KPFJTNEE|SymbolType=Normal
+|RECORD=16|OwnerIndex=68|OwnerPartId=-1|DistanceFromTop=1|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=D+|UniqueID=KIVIPNJP|IOType=3|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=68|IndexInSheet=1|OwnerPartId=-1|DistanceFromTop=2|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=D-|UniqueID=PTKLYDSF|IOType=3|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=68|IndexInSheet=2|OwnerPartId=-1|DistanceFromTop=4|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=V_USB|UniqueID=FDYQDAUG|IOType=2|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=68|IndexInSheet=3|OwnerPartId=-1|DistanceFromTop=12|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=R\E\S\E\T\|UniqueID=SLNTVXWA|IOType=1|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=68|IndexInSheet=4|OwnerPartId=-1|DistanceFromTop=9|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=ADNS_SDIO|UniqueID=ZFJOLFBM|IOType=3|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=68|IndexInSheet=5|OwnerPartId=-1|DistanceFromTop=8|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=ADNS_C\S\|UniqueID=DXEZVLOB|IOType=1|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=68|IndexInSheet=6|OwnerPartId=-1|DistanceFromTop=10|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=ADNS_SCLK|UniqueID=BFOSEWSJ|IOType=1|ArrowKind=Block & Triangle
+|RECORD=32|OwnerIndex=68|IndexInSheet=-1|OwnerPartId=-1|Location.X=570|Location.Y=550|Color=8388608|FontID=2|Text=MCU
+|RECORD=33|OwnerIndex=68|IndexInSheet=-1|OwnerPartId=-1|Location.X=570|Location.Y=540|Color=8388608|FontID=2|Text=MCU.SchDoc
+|RECORD=15|IndexInSheet=36|OwnerPartId=-1|Location.X=400|Location.Y=380|XSize=170|YSize=20|Color=128|AreaColor=8454016|IsSolid=T|UniqueID=NDZGVAIK|SymbolType=Normal
+|RECORD=32|OwnerIndex=78|IndexInSheet=-1|OwnerPartId=-1|Location.X=400|Location.Y=390|Color=8388608|FontID=2|Text=MCH
+|RECORD=33|OwnerIndex=78|IndexInSheet=-1|OwnerPartId=-1|Location.X=400|Location.Y=380|Color=8388608|FontID=2|Text=Mechanical.SchDoc
+|RECORD=41|IndexInSheet=37|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=SPICEModelCache|ReadOnlyState=1|UniqueID=HGLOVYHR
+|RECORD=15|IndexInSheet=38|OwnerPartId=-1|Location.X=400|Location.Y=470|XSize=170|YSize=60|Color=128|AreaColor=8454016|IsSolid=T|UniqueID=AMOYSEYW|SymbolType=Normal
+|RECORD=16|OwnerIndex=82|OwnerPartId=-1|Side=1|DistanceFromTop=5|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=R\E\S\E\T\|UniqueID=WXKNJKBT|IOType=2|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=82|IndexInSheet=1|OwnerPartId=-1|DistanceFromTop=1|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=V_USB|UniqueID=VDQTYNCF|IOType=2|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=82|IndexInSheet=2|OwnerPartId=-1|Side=1|DistanceFromTop=1|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=ADNS_C\S\|UniqueID=LZQMDRBI|IOType=2|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=82|IndexInSheet=3|OwnerPartId=-1|Side=1|DistanceFromTop=2|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=ADNS_SDIO|UniqueID=VLNVVDZD|IOType=3|ArrowKind=Block & Triangle
+|RECORD=16|OwnerIndex=82|IndexInSheet=4|OwnerPartId=-1|Side=1|DistanceFromTop=3|Color=128|AreaColor=8454143|TextColor=128|TextFontID=2|TextStyle=Full|Name=ADNS_SCLK|UniqueID=TPIMCUAQ|IOType=2|ArrowKind=Block & Triangle
+|RECORD=32|OwnerIndex=82|IndexInSheet=-1|OwnerPartId=-1|Location.X=400|Location.Y=480|Color=8388608|FontID=2|Text=MOS
+|RECORD=33|OwnerIndex=82|IndexInSheet=-1|OwnerPartId=-1|Location.X=400|Location.Y=470|Color=8388608|FontID=2|Text=MouseSensor.SchDoc
+|RECORD=27|IndexInSheet=39|OwnerPartId=-1|LineWidth=1|Color=8388608|UniqueID=WNSEIWHB|LocationCount=4|X1=400|Y1=530|X2=390|Y2=530|X3=390|Y3=500|X4=570|Y4=500
+|RECORD=27|IndexInSheet=40|OwnerPartId=-1|LineWidth=1|Color=8388608|UniqueID=SNLSPMNG|LocationCount=3|X1=390|Y1=500|X2=390|Y2=460|X3=400|Y3=460
+|RECORD=29|IndexInSheet=-1|OwnerPartId=-1|Location.X=390|Location.Y=500|Color=128

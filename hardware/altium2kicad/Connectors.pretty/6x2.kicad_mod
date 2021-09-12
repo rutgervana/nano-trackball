@@ -1,0 +1,7 @@
+(module "6x2" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start -1.50000 -1.50000) (end 4.10000 -1.50000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start 4.10000 6.00000) (end 4.10000 -1.50000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start 4.10000 6.60000) (end 4.10000 6.00000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start -1.50000 6.60000) (end 4.10000 6.60000) (layer B.CrtYd) (width 0.1))
+  (fp_line (start -1.50000 6.60000) (end -1.50000 -1.50000) (layer B.CrtYd) (width 0.1))
+)

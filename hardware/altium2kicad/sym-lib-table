@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Connectors-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Connectors-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name MouseSensor-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/MouseSensor-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name MCU-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/MCU-SchDoc-rescue.lib)(options "")(descr ""))
+)

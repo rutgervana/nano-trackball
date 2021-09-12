@@ -1,0 +1,257 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "Connectors-SchDoc"
+Date "13 05 2021"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8930 10800 0    54   ~ 0
+2
+Text Notes 9500 10470 0    78   ~ 0
+Ploopy Corporation
+Text Notes 9500 10670 0    54   ~ 0
+Mississauga ON L5C 0A3
+Text Notes 9200 10800 0    54   ~ 0
+5
+Text Notes 6880 10460 0    84   ~ 0
+*
+Text Notes 9040 10660 0    54   ~ 0
+R1.001
+Text Notes 6900 10800 0    54   ~ 0
+*
+Text Notes 7650 10800 0    54   ~ 0
+*
+Wire Notes Line
+	6600 10300 10800 10300
+Wire Notes Line
+	6600 10800 6600 10300
+Wire Notes Line
+	9400 10500 6600 10500
+Wire Notes Line
+	8650 10800 8650 10500
+Text Notes 6650 10450 0    54   ~ 0
+Title:
+Text Notes 6650 10800 0    54   ~ 0
+Date:
+Text Notes 8700 10650 0    54   ~ 0
+Version:
+Text Notes 8700 10800 0    54   ~ 0
+Sheet
+Text Notes 9080 10800 0    54   ~ 0
+of
+Wire Notes Line
+	9400 10800 9400 10300
+Text Notes 7400 10800 0    54   ~ 0
+Time:
+Wire Notes Line
+	9400 10700 6600 10700
+Text Notes 6650 10650 0    54   ~ 0
+PCB:
+Wire Notes Line
+	4800 10300 6600 10300
+Wire Notes Line
+	4800 10800 4800 10300
+Text Notes 6880 10660 0    78   ~ 0
+*
+Text Notes 4900 10470 0    66   ~ 0
+Copyright Ploopy Corporation 2021
+Text Notes 9500 10570 0    54   ~ 0
+137-1140 Burnhamthorpe Road W
+Text Notes 9500 10770 0    54   ~ 0
+Canada
+Text Notes 4900 10600 0    66   ~ 0
+Licensed under the CERN OHL v. 1.2
+Text Notes 4900 10700 0    66   ~ 0
+http://ohwr.org/cernohl
+$Comp
+L power:GND #PWR?609D070B
+U 1 1 609D070B
+P 4900 7900
+F 0 "GND" H 4900 8040 20  0000 C CNN
+F 1 "GND" H 4900 8010 30  0000 C CNN
+F 2 "" H 4900 7900 70  0000 C CNN
+F 3 "" H 4900 7900 70  0000 C CNN
+	1    4900 7900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 5800 2 60 BiDi ~
+D-
+Text GLabel 8000 6200 2 60 BiDi ~
+D+
+Text GLabel 7900 5000 2 60 Output ~
+V_USB
+Text Label 3500 7800 0 60 ~
+This neato device protects the mouse from ESD. It should be more than adequate for this relatively tame application.
+$Comp
+L power:GND #PWR?609D070A
+U 1 1 609D070A
+P 3800 5900
+F 0 "GND_2" H 3800 6040 20  0000 C CNN
+F 1 "GND" H 3800 6010 30  0000 C CNN
+F 2 "" H 3800 5900 70  0000 C CNN
+F 3 "" H 3800 5900 70  0000 C CNN
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5300 3700 5300
+Wire Wire Line
+	4200 5900 4200 5300
+Wire Wire Line
+	5700 5900 4200 5900
+Wire Wire Line
+	6100 5900 5700 5900
+Wire Wire Line
+	6100 6200 6100 5900
+Wire Wire Line
+	6200 6200 6100 6200
+Wire Wire Line
+	5600 5800 6200 5800
+Wire Wire Line
+	4300 5800 5600 5800
+Wire Wire Line
+	4300 5200 4300 5800
+Wire Wire Line
+	3700 5200 4300 5200
+Wire Wire Line
+	4600 5000 3700 5000
+Wire Wire Line
+	4900 5000 4600 5000
+Wire Wire Line
+	5200 5000 4900 5000
+Wire Wire Line
+	6200 5000 5200 5000
+Wire Wire Line
+	5700 8300 5700 5900
+Wire Wire Line
+	4600 8300 5700 8300
+Wire Wire Line
+	4600 7900 4600 8300
+Wire Wire Line
+	5600 8000 5600 5800
+Wire Wire Line
+	5200 8000 5600 8000
+Wire Wire Line
+	5200 7900 5200 8000
+Wire Wire Line
+	7500 6200 6600 6200
+Wire Wire Line
+	7500 5800 6600 5800
+Wire Wire Line
+	7900 5000 6600 5000
+Wire Wire Line
+	8000 6200 7900 6200
+Wire Wire Line
+	7900 5800 8000 5800
+Wire Wire Line
+	4900 5000 4900 6600
+Wire Wire Line
+	4600 5000 4600 6600
+Wire Wire Line
+	5200 5000 5200 6600
+Wire Wire Line
+	3800 5800 3700 5800
+Wire Wire Line
+	3800 5900 3800 5800
+Wire Wire Line
+	3800 5600 3700 5600
+Wire Wire Line
+	3800 5800 3800 5600
+Connection ~ 3800 5800
+Connection ~ 4600 5000
+Connection ~ 4900 5000
+Connection ~ 5200 5000
+Connection ~ 5600 5800
+Connection ~ 5700 5900
+$Comp
+L Res_22R_1%_0805 R6
+U 1 1 609D0709
+P 7600 5700
+F 0 "R6" H 7590 5630 60  0000 L BNN
+F 1 "0805" H 7590 5470 60  0000 L BNN
+F 1 "22R 1%" H 7590 5370 60  0000 L BNN
+F 2 "" H 7590 5370 60  0000 C CNN
+F 2 "" H 7590 5470 60  0000 C CNN
+F 3 "" H 7590 5370 60  0000 C CNN
+F 3 "" H 7590 5470 60  0000 C CNN
+	1    7600 5700
+	1    0    0    -1
+$EndComp
+$Comp
+L IP4220CZ6,125 Z1
+U 1 1 609D0708
+P 4900 7200
+F 0 "Z1" H 5800 6900 60  0000 L BNN
+F 1 "IP4220CZ6,125" H 5800 6800 60  0000 L BNN
+F 2 "" H 5800 6800 60  0000 C CNN
+F 3 "" H 5800 6800 60  0000 C CNN
+	1    4900 7200
+	1    0    0    -1
+$EndComp
+$Comp
+L Res_22R_1%_0805 R7
+U 1 1 609D0707
+P 7600 6100
+F 0 "R7" H 7590 6030 60  0000 L BNN
+F 1 "0805" H 7590 5870 60  0000 L BNN
+F 1 "22R 1%" H 7590 5770 60  0000 L BNN
+F 2 "" H 7590 5770 60  0000 C CNN
+F 2 "" H 7590 5870 60  0000 C CNN
+F 3 "" H 7590 5770 60  0000 C CNN
+F 3 "" H 7590 5870 60  0000 C CNN
+	1    7600 6100
+	1    0    0    -1
+$EndComp
+$Comp
+L ACML-0805-601-T FB1
+U 1 1 609D0706
+P 6300 4900
+F 0 "FB1" H 6600 4800 60  0000 L BNN
+F 1 "ACML-0805-601-T" H 6600 4700 60  0000 L BNN
+F 2 "" H 6600 4700 60  0000 C CNN
+F 3 "" H 6600 4700 60  0000 C CNN
+	1    6300 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L ACML-0805-601-T FB2
+U 1 1 609D0705
+P 6300 5700
+F 0 "FB2" H 6600 5600 60  0000 L BNN
+F 1 "ACML-0805-601-T" H 6600 5500 60  0000 L BNN
+F 2 "" H 6600 5500 60  0000 C CNN
+F 3 "" H 6600 5500 60  0000 C CNN
+	1    6300 5700
+	1    0    0    -1
+$EndComp
+$Comp
+L ACML-0805-601-T FB3
+U 1 1 609D0704
+P 6300 6100
+F 0 "FB3" H 6600 6000 60  0000 L BNN
+F 1 "ACML-0805-601-T" H 6600 5900 60  0000 L BNN
+F 2 "" H 6600 5900 60  0000 C CNN
+F 3 "" H 6600 5900 60  0000 C CNN
+	1    6300 6100
+	1    0    0    -1
+$EndComp
+$Comp
+L 10118192-0001LF J2
+U 1 1 609D0703
+P 3200 5400
+F 0 "J2" H 3600 5900 60  0000 R BNN
+F 1 "10118192-0001LF" H 3600 4800 60  0000 R BNN
+F 2 "" H 3600 4800 60  0000 C CNN
+F 3 "" H 3600 4800 60  0000 C CNN
+	1    3200 5400
+	-1    0    0    -1
+$EndComp
+$EndSCHEMATC

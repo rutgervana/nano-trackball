@@ -1,0 +1,626 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "MCU-SchDoc"
+Date "13 05 2021"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 11930 10800 0    54   ~ 0
+3
+Text Notes 12500 10470 0    78   ~ 0
+Ploopy Corporation
+Text Notes 12500 10670 0    54   ~ 0
+Mississauga ON L5C 0A3
+Text Notes 12200 10800 0    54   ~ 0
+5
+Text Notes 9880 10460 0    84   ~ 0
+*
+Text Notes 12040 10660 0    54   ~ 0
+R1.001
+Text Notes 9900 10800 0    54   ~ 0
+*
+Text Notes 10650 10800 0    54   ~ 0
+*
+Wire Notes Line
+	9600 10300 13800 10300
+Wire Notes Line
+	9600 10800 9600 10300
+Wire Notes Line
+	12400 10500 9600 10500
+Wire Notes Line
+	11650 10800 11650 10500
+Text Notes 9650 10450 0    54   ~ 0
+Title:
+Text Notes 9650 10800 0    54   ~ 0
+Date:
+Text Notes 11700 10650 0    54   ~ 0
+Version:
+Text Notes 11700 10800 0    54   ~ 0
+Sheet
+Text Notes 12080 10800 0    54   ~ 0
+of
+Wire Notes Line
+	12400 10800 12400 10300
+Text Notes 10400 10800 0    54   ~ 0
+Time:
+Wire Notes Line
+	12400 10700 9600 10700
+Text Notes 9650 10650 0    54   ~ 0
+PCB:
+Wire Notes Line
+	7800 10300 9600 10300
+Wire Notes Line
+	7800 10800 7800 10300
+Text Notes 9880 10660 0    78   ~ 0
+*
+Text Notes 7900 10470 0    66   ~ 0
+Copyright Ploopy Corporation 2021
+Text Notes 12500 10570 0    54   ~ 0
+137-1140 Burnhamthorpe Road W
+Text Notes 12500 10770 0    54   ~ 0
+Canada
+Text Notes 7900 10600 0    66   ~ 0
+Licensed under the CERN OHL v. 1.2
+Text Notes 7900 10700 0    66   ~ 0
+http://ohwr.org/cernohl
+Text GLabel 3700 4700 2 60 BiDi ~
+D-
+Text Label 3800 4500 0 60 ~
+V_USB
+$Comp
+L power:GND #PWR?609D0702
+U 1 1 609D0702
+P 4900 5100
+F 0 "GND_3" H 4900 5240 20  0000 C CNN
+F 1 "GND" H 4900 5210 30  0000 C CNN
+F 2 "" H 4900 5100 70  0000 C CNN
+F 3 "" H 4900 5100 70  0000 C CNN
+	1    4900 5100
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3600 0 60 ~
+SCLK
+Text Label 9500 3600 0 60 ~
+MOSI
+Text Label 7800 3500 0 60 ~
+MISO
+Text Label 9500 3500 0 60 ~
+V_USB
+$Comp
+L power:GND #PWR?609D0701
+U 1 1 609D0701
+P 9500 3800
+F 0 "GND_4" H 9500 3940 20  0000 C CNN
+F 1 "GND" H 9500 3910 30  0000 C CNN
+F 2 "" H 9500 3800 70  0000 C CNN
+F 3 "" H 9500 3800 70  0000 C CNN
+	1    9500 3800
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3800 0 60 ~
+~RESET~
+Text GLabel 3700 4900 2 60 BiDi ~
+D+
+$Comp
+L power:GND #PWR?609D0700
+U 1 1 609D0700
+P 2000 5800
+F 0 "GND_5" H 2000 5940 20  0000 C CNN
+F 1 "GND" H 2000 5910 30  0000 C CNN
+F 2 "" H 2000 5800 70  0000 C CNN
+F 3 "" H 2000 5800 70  0000 C CNN
+	1    2000 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 5700 2 60 Input ~
+V_USB
+Text Label 4300 5700 0 60 ~
+V_USB
+Text Label 9000 4600 0 60 ~
+SCLK
+Text Label 9000 4700 0 60 ~
+MOSI
+Text Label 9000 4800 0 60 ~
+MISO
+Text Label 4500 6500 0 60 ~
+~RESET~
+$Comp
+L power:GND #PWR?609D06FF
+U 1 1 609D06FF
+P 2800 6900
+F 0 "GND_6" H 2800 7040 20  0000 C CNN
+F 1 "GND" H 2800 7010 30  0000 C CNN
+F 2 "" H 2800 6900 70  0000 C CNN
+F 3 "" H 2800 6900 70  0000 C CNN
+	1    2800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?609D06FE
+U 1 1 609D06FE
+P 9300 8500
+F 0 "GND_7" H 9300 8640 20  0000 C CNN
+F 1 "GND" H 9300 8610 30  0000 C CNN
+F 2 "" H 9300 8500 70  0000 C CNN
+F 3 "" H 9300 8500 70  0000 C CNN
+	1    9300 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?609D06FD
+U 1 1 609D06FD
+P 4300 9500
+F 0 "GND_8" H 4300 9640 20  0000 C CNN
+F 1 "GND" H 4300 9610 30  0000 C CNN
+F 2 "" H 4300 9500 70  0000 C CNN
+F 3 "" H 4300 9500 70  0000 C CNN
+	1    4300 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?609D06FC
+U 1 1 609D06FC
+P 4300 8500
+F 0 "GND_9" H 4300 8640 20  0000 C CNN
+F 1 "GND" H 4300 8610 30  0000 C CNN
+F 2 "" H 4300 8500 70  0000 C CNN
+F 3 "" H 4300 8500 70  0000 C CNN
+	1    4300 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?609D06FB
+U 1 1 609D06FB
+P 8600 9500
+F 0 "GND_10" H 8600 9640 20  0000 C CNN
+F 1 "GND" H 8600 9610 30  0000 C CNN
+F 2 "" H 8600 9500 70  0000 C CNN
+F 3 "" H 8600 9500 70  0000 C CNN
+	1    8600 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?609D06FA
+U 1 1 609D06FA
+P 3300 8300
+F 0 "GND_11" H 3300 8440 20  0000 C CNN
+F 1 "GND" H 3300 8410 30  0000 C CNN
+F 2 "" H 3300 8300 70  0000 C CNN
+F 3 "" H 3300 8300 70  0000 C CNN
+	1    3300 8300
+	1    0    0    -1  
+$EndComp
+Text Label 10600 4400 0 60 ~
+IMPORTANT NOTE:    Unused GPIO are grounded to improve EMC performance. To make best use of this, grounded GPIO should be set to:    OUTPUT LOW + PULLDOWN    This will ground the chip through the GPIO pins.
+$Comp
+L power:GND #PWR?609D06F9
+U 1 1 609D06F9
+P 10000 7700
+F 0 "GND_12" H 10000 7840 20  0000 C CNN
+F 1 "GND" H 10000 7810 30  0000 C CNN
+F 2 "" H 10000 7700 70  0000 C CNN
+F 3 "" H 10000 7700 70  0000 C CNN
+	1    10000 7700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8600 4500
+NoConn ~ 3300 8300
+NoConn ~ 4100 8200
+NoConn ~ 7800 3800
+NoConn ~ 3800 4500
+NoConn ~ 8600 4600
+NoConn ~ 8100 3500
+NoConn ~ 8600 4800
+NoConn ~ 8600 4700
+Text GLabel 1300 6500 2 60 Output ~
+~RESET~
+$Comp
+L power:GND #PWR?609D06F8
+U 1 1 609D06F8
+P 2000 6800
+F 0 "GND_13" H 2000 6940 20  0000 C CNN
+F 1 "GND" H 2000 6910 30  0000 C CNN
+F 2 "" H 2000 6800 70  0000 C CNN
+F 3 "" H 2000 6800 70  0000 C CNN
+	1    2000 6800
+	1    0    0    -1  
+$EndComp
+Text Label 3800 6100 0 60 ~
+V_USB
+Text Label 4100 8200 0 60 ~
+V_USB
+Text Label 4100 9200 0 60 ~
+V_USB
+Text Label 8600 9200 0 60 ~
+V_USB
+Text Label 9300 8200 0 60 ~
+V_USB
+Text Label 10700 6400 0 60 ~
+V_USB
+Wire Wire Line
+	10000 7600 8600 7600
+Wire Wire Line
+	4100 6500 4900 6500
+Wire Wire Line
+	2000 6500 4100 6500
+Wire Wire Line
+	1800 6500 2000 6500
+Wire Wire Line
+	2000 5500 4900 5500
+Wire Wire Line
+	3300 8000 4900 8000
+Wire Wire Line
+	3300 7100 4900 7100
+Wire Wire Line
+	3300 6700 4900 6700
+Wire Wire Line
+	4900 4500 3800 4500
+Wire Wire Line
+	3800 6100 4100 6100
+Wire Wire Line
+	4300 9200 4900 9200
+Wire Wire Line
+	4100 9200 4300 9200
+Wire Wire Line
+	4300 8200 4900 8200
+Wire Wire Line
+	4100 8200 4300 8200
+Wire Wire Line
+	4200 5700 4900 5700
+Wire Wire Line
+	4300 9500 4900 9500
+Wire Wire Line
+	4300 8500 4900 8500
+Wire Wire Line
+	8200 3800 8200 3700
+Wire Wire Line
+	7800 3800 8200 3800
+Wire Wire Line
+	7800 3600 8200 3600
+Wire Wire Line
+	7800 3500 8200 3500
+Wire Wire Line
+	8600 8500 9300 8500
+Wire Wire Line
+	9300 8200 8600 8200
+Wire Wire Line
+	10000 7500 8600 7500
+Wire Wire Line
+	10000 7400 8600 7400
+Wire Wire Line
+	10000 7200 8600 7200
+Wire Wire Line
+	8600 4800 9300 4800
+Wire Wire Line
+	9300 4700 8600 4700
+Wire Wire Line
+	8600 4600 9300 4600
+Wire Wire Line
+	9500 3700 9500 3800
+Wire Wire Line
+	9400 3700 9500 3700
+Wire Wire Line
+	9800 3600 9400 3600
+Wire Wire Line
+	9800 3500 9400 3500
+Wire Wire Line
+	2800 6800 2800 6900
+Wire Wire Line
+	10600 6800 10900 6800
+Wire Wire Line
+	8600 6800 10600 6800
+Wire Wire Line
+	10700 6400 10600 6400
+Wire Wire Line
+	10000 5600 8600 5600
+Wire Wire Line
+	10000 5800 10000 5600
+Wire Wire Line
+	10000 5900 10000 5800
+Wire Wire Line
+	10000 6000 10000 5900
+Wire Wire Line
+	10000 6100 10000 6000
+Wire Wire Line
+	10000 6300 10000 6100
+Wire Wire Line
+	10000 6400 10000 6300
+Wire Wire Line
+	10000 6500 10000 6400
+Wire Wire Line
+	10000 6600 10000 6500
+Wire Wire Line
+	10000 6900 10000 6600
+Wire Wire Line
+	10000 7100 10000 6900
+Wire Wire Line
+	10000 7200 10000 7100
+Wire Wire Line
+	10000 7300 10000 7200
+Wire Wire Line
+	10000 7400 10000 7300
+Wire Wire Line
+	10000 7500 10000 7400
+Wire Wire Line
+	10000 7600 10000 7500
+Wire Wire Line
+	10000 7700 10000 7600
+Text Label 10800 7500 0 60 ~
+When the HWBE fuse is enabled (set to zero), the \H\W\B pin will be sampled on the rising edge of reset. If this pin is zero, the reset vector will be the bootloader. Otherwise, the device will start as normal.'    Because of space constraints, we include a little header here. A user can trigger it by sticking a pair of tweezers (or other conductive jumper) into the header.
+Text GLabel 8600 5500 2 60 BiDi ~
+ADNS_SDIO
+Text GLabel 8600 5000 2 60 Output ~
+ADNS_~CS~
+Text GLabel 8600 5300 2 60 Output ~
+ADNS_SCLK
+Wire Wire Line
+	10000 5800 8600 5800
+Wire Wire Line
+	10000 5900 8600 5900
+Wire Wire Line
+	10000 6100 8600 6100
+Wire Wire Line
+	10000 6400 8600 6400
+Wire Wire Line
+	10000 6500 8600 6500
+Wire Wire Line
+	10000 5100 8600 5100
+Wire Wire Line
+	10000 5200 10000 5100
+Wire Wire Line
+	10000 5600 10000 5200
+NoConn ~ 8600 5300
+NoConn ~ 8600 5000
+NoConn ~ 8600 6800
+Wire Wire Line
+	10000 4500 8600 4500
+Wire Wire Line
+	10000 5100 10000 4500
+$Comp
+L power:GND #PWR?609D06F7
+U 1 1 609D06F7
+P 10900 7000
+F 0 "GND_14" H 10900 7140 20  0000 C CNN
+F 1 "GND" H 10900 7110 30  0000 C CNN
+F 2 "" H 10900 7000 70  0000 C CNN
+F 3 "" H 10900 7000 70  0000 C CNN
+	1    10900 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 7300 8600 7300
+Wire Wire Line
+	10000 7100 8600 7100
+Wire Wire Line
+	10000 6900 8600 6900
+Wire Wire Line
+	10000 6600 8600 6600
+Wire Wire Line
+	10000 6300 8600 6300
+Wire Wire Line
+	10000 6000 8600 6000
+Wire Wire Line
+	10000 5200 8600 5200
+Connection ~ 2000 6500
+Connection ~ 2800 6900
+Connection ~ 4100 6500
+Connection ~ 4300 9500
+Connection ~ 4300 9200
+Connection ~ 4300 8500
+Connection ~ 4300 8200
+Connection ~ 8600 9500
+Connection ~ 8600 8500
+Connection ~ 8600 8200
+Connection ~ 9300 8500
+Connection ~ 10000 7600
+Connection ~ 10000 7500
+Connection ~ 10000 7400
+Connection ~ 10000 7300
+Connection ~ 10000 7200
+Connection ~ 10000 7100
+Connection ~ 10000 6900
+Connection ~ 10000 6600
+Connection ~ 10000 6500
+Connection ~ 10000 6400
+Connection ~ 10000 6300
+Connection ~ 10000 6100
+Connection ~ 10000 6000
+Connection ~ 10000 5900
+Connection ~ 10000 5800
+Connection ~ 10000 5600
+Connection ~ 10000 5200
+Connection ~ 10000 5100
+Connection ~ 10600 6800
+$Comp
+L ATMEGA32U4RC-AU U1
+U 1 1 609D06F6
+P 6300 7000
+F 0 "U1" H 5200 9600 60  0000 L BNN
+F 1 "ATMEGA32U4RC-AU" H 5200 4300 60  0000 L BNN
+F 2 "" H 5200 4300 60  0000 C CNN
+F 3 "" H 5200 4300 60  0000 C CNN
+	1    6300 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L Cap_0.1uF_100V C9
+U 1 1 609D06F5
+P 8500 9400
+F 0 "C9" V 8510 9210 60  0000 R TNN
+F 1 "0.1uF 100V" V 8310 9210 60  0000 R TNN
+F 1 "0805" V 8410 9210 60  0000 R TNN
+F 2 "" H 8310 9210 60  0000 C CNN
+F 2 "" H 8410 9210 60  0000 C CNN
+F 3 "" H 8310 9210 60  0000 C CNN
+F 3 "" H 8410 9210 60  0000 C CNN
+	1    8500 9400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Cap_0.1uF_100V C4
+U 1 1 609D06F4
+P 3200 8200
+F 0 "C4" V 3310 8010 60  0000 R TNN
+F 1 "0.1uF 100V" V 3110 8010 60  0000 R TNN
+F 1 "0805" V 3210 8010 60  0000 R TNN
+F 2 "" H 3110 8010 60  0000 C CNN
+F 2 "" H 3210 8010 60  0000 C CNN
+F 3 "" H 3110 8010 60  0000 C CNN
+F 3 "" H 3210 8010 60  0000 C CNN
+	1    3200 8200
+	0    -1   -1   0
+$EndComp
+$Comp
+L Cap_0.1uF_100V C22
+U 1 1 609D06F3
+P 1900 6700
+F 0 "C22" V 1910 6510 60  0000 R TNN
+F 1 "0.1uF 100V" V 1710 6510 60  0000 R TNN
+F 1 "0805" V 1810 6510 60  0000 R TNN
+F 2 "" H 1710 6510 60  0000 C CNN
+F 2 "" H 1810 6510 60  0000 C CNN
+F 3 "" H 1710 6510 60  0000 C CNN
+F 3 "" H 1810 6510 60  0000 C CNN
+	1    1900 6700
+	0    -1   -1   0
+$EndComp
+$Comp
+L Res_10k_1%_0805 R5
+U 1 1 609D06F2
+P 10500 6700
+F 0 "R5" V 10610 6570 60  0000 R TNN
+F 1 "0805" V 10510 6570 60  0000 R TNN
+F 1 "10k 1%" V 10410 6570 60  0000 R TNN
+F 2 "" H 10410 6570 60  0000 C CNN
+F 2 "" H 10510 6570 60  0000 C CNN
+F 3 "" H 10410 6570 60  0000 C CNN
+F 3 "" H 10510 6570 60  0000 C CNN
+	1    10500 6700
+	0    -1   -1   0
+$EndComp
+$Comp
+L HEADER2 J3
+U 1 1 609D06F1
+P 11300 6900
+F 0 "J3" H 11200 7100 60  0000 L BNN
+F 1 "HEADER2" H 11200 6600 60  0000 L BNN
+F 2 "" H 11200 6600 60  0000 C CNN
+F 3 "" H 11200 6600 60  0000 C CNN
+	1    11300 6900
+	1    0    0    -1
+$EndComp
+$Comp
+L Atmel_ICSP J1
+U 1 1 609D06F0
+P 8500 3600
+F 0 "J1" H 8400 3800 60  0000 L BNN
+F 1 "Atmel_ICSP" H 8400 3300 60  0000 L BNN
+F 2 "" H 8400 3300 60  0000 C CNN
+F 3 "" H 8400 3300 60  0000 C CNN
+	1    8500 3600
+	1    0    0    -1
+$EndComp
+$Comp
+L Cap_1uF_25V C1
+U 1 1 609D06EF
+P 1900 5700
+F 0 "C1" V 1910 5510 60  0000 R TNN
+F 1 "0805" V 1810 5510 60  0000 R TNN
+F 1 "1uF 25V" V 1710 5510 60  0000 R TNN
+F 2 "" H 1710 5510 60  0000 C CNN
+F 2 "" H 1810 5510 60  0000 C CNN
+F 3 "" H 1710 5510 60  0000 C CNN
+F 3 "" H 1810 5510 60  0000 C CNN
+	1    1900 5700
+	0    -1   -1   0
+$EndComp
+$Comp
+L Res_10k_1%_0805 R1
+U 1 1 609D06EE
+P 4000 6400
+F 0 "R1" V 4110 6270 60  0000 R TNN
+F 1 "0805" V 4010 6270 60  0000 R TNN
+F 1 "10k 1%" V 3910 6270 60  0000 R TNN
+F 2 "" H 3910 6270 60  0000 C CNN
+F 2 "" H 4010 6270 60  0000 C CNN
+F 3 "" H 3910 6270 60  0000 C CNN
+F 3 "" H 4010 6270 60  0000 C CNN
+	1    4000 6400
+	0    -1   -1   0
+$EndComp
+$Comp
+L ECS-160-12-30B-AGM Y1
+U 1 1 609D06ED
+P 3200 6900
+F 0 "Y1" H 3420 6910 60  0000 L BNN
+F 1 "ECS-160-12-30B-AGM" H 3420 6810 60  0000 L BNN
+F 2 "" H 3420 6810 60  0000 C CNN
+F 3 "" H 3420 6810 60  0000 C CNN
+	1    3200 6900
+	1    0    0    -1
+$EndComp
+$Comp
+L Cap_0.1uF_100V C6
+U 1 1 609D06EC
+P 8700 8400
+F 0 "C6" V 8690 8410 60  0000 L TNN
+F 1 "0.1uF 100V" V 8890 8410 60  0000 L TNN
+F 1 "0805" V 8790 8410 60  0000 L TNN
+F 2 "" H 8790 8410 60  0000 C CNN
+F 2 "" H 8890 8410 60  0000 C CNN
+F 3 "" H 8790 8410 60  0000 C CNN
+F 3 "" H 8890 8410 60  0000 C CNN
+	1    8700 8400
+	0    -1    1    0
+$EndComp
+$Comp
+L Cap_10uF_25V C7
+U 1 1 609D06EB
+P 9400 8400
+F 0 "C7" V 9390 8410 60  0000 L TNN
+F 1 "0805" V 9490 8410 60  0000 L TNN
+F 1 "10uF 25V" V 9590 8410 60  0000 L TNN
+F 2 "" H 9490 8410 60  0000 C CNN
+F 2 "" H 9590 8410 60  0000 C CNN
+F 3 "" H 9490 8410 60  0000 C CNN
+F 3 "" H 9590 8410 60  0000 C CNN
+	1    9400 8400
+	0    -1    1    0
+$EndComp
+$Comp
+L Cap_0.1uF_100V C5
+U 1 1 609D06EA
+P 4200 8400
+F 0 "C5" V 4310 8210 60  0000 R TNN
+F 1 "0.1uF 100V" V 4110 8210 60  0000 R TNN
+F 1 "0805" V 4210 8210 60  0000 R TNN
+F 2 "" H 4110 8210 60  0000 C CNN
+F 2 "" H 4210 8210 60  0000 C CNN
+F 3 "" H 4110 8210 60  0000 C CNN
+F 3 "" H 4210 8210 60  0000 C CNN
+	1    4200 8400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Cap_0.1uF_100V C8
+U 1 1 609D06E9
+P 4200 9400
+F 0 "C8" V 4310 9210 60  0000 R TNN
+F 1 "0.1uF 100V" V 4110 9210 60  0000 R TNN
+F 1 "0805" V 4210 9210 60  0000 R TNN
+F 2 "" H 4110 9210 60  0000 C CNN
+F 2 "" H 4210 9210 60  0000 C CNN
+F 3 "" H 4110 9210 60  0000 C CNN
+F 3 "" H 4210 9210 60  0000 C CNN
+	1    4200 9400
+	0    -1   -1   0
+$EndComp
+$EndSCHEMATC

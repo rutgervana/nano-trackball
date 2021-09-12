@@ -1,0 +1,7 @@
+(module "ADNS-5050" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start 1.92500 0.00000) (end 3.90000 0.00000) (layer F.SilkS) (width 1.4))
+  (fp_line (start -12.05000 1.37500) (end 13.45000 1.37500) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 13.45000 11.22500) (end 13.45000 1.37500) (layer Dwgs.User) (width 0.1))
+  (fp_line (start -12.05000 11.22500) (end -12.05000 1.37500) (layer Dwgs.User) (width 0.1))
+  (fp_line (start -12.05000 11.22500) (end 13.45000 11.22500) (layer Dwgs.User) (width 0.1))
+)
